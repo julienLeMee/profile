@@ -52,6 +52,7 @@ a:hover {
   background-color: #333;
   color: #fff;
   padding: 20px 20px;
+  margin: 20px auto;
   border-radius: 4px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
 }
@@ -64,22 +65,31 @@ a:hover {
   display: flex;
 }
 
+.card ul li {
+  width: 50px;
+  padding: 20px;
+}
+
 .card ul a {
   padding: 15px;
 }
 
 .follow {
   border: 1px dotted #fff;
+  border-radius: 4px;
   width: 120px;
   margin: 0 auto;
+  padding: 5px;
+  box-shadow: 0 10px 30px rgba(255, 255, 255, 0.2);
 }
 
 .list-inline {
   display: inline-block;
   padding: 0px 20px;
+  box-shadow: 0 10px 30px rgba(255, 255, 255, 0.2);
 }
 
-.jessica {
+.training-page {
   display: flex;
   justify-content: center;
   background-color: #F7565D;
@@ -92,7 +102,7 @@ a:hover {
   margin: 20px auto;
 }
 
-.jessica:hover {
+.training-page:hover {
   background-color: #fff;
   color: #F7565D;
   transition: 0.3s ease-in-out;
